@@ -3,7 +3,7 @@ title: [Sharding]
 tags:
 keywords: sharding,partitioning,distribution
 last_updated: tbd
-summary: "Sharding is a type of database partitioning that separates very large databases the into smaller, faster, more easily managed parts called data shards."
+summary: "Sharding is a type of database partitioning that separates very large databases into smaller, faster, more easily managed parts called data shards."
 sidebar: mydoc_sidebar
 permalink: /:collection/:path.html
 ---
