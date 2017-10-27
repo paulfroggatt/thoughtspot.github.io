@@ -20,7 +20,7 @@ millions and billions of records of data. ThoughtSpot caches the data in order
 to process it.
 
 The ThoughtSpot appliance can be a physical appliance that ThoughtSpot ships,
-one or more AWS instances that are clustered together, or one or more VMWare
+one or more AWS instances that are clustered together, or one or more VMware
 instances that are clustered together. From an external interface, regardless of
 the appliance type, the appliance appears to be a single instance.
 
