@@ -35,7 +35,7 @@ The table below shows each of the options and the items to consider for each.
     <ul>
     <li>Configuration.</li>
     <li>Users authenticate against LDAP or AD.</li>
-    <li>Option to sync users and groups with ThoughtSpot to manage group memebership.</li>
+    <li>Option to sync users and groups with ThoughtSpot to manage group membership.</li>
     </ul>
     </td>
     <td>
