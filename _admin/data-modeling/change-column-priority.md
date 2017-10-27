@@ -8,7 +8,7 @@ summary: "You can change the priority that determines which columns are shown in
 sidebar: mydoc_sidebar
 permalink: /:collection/:path.html
 ---
-A column's **INDEX PRIORITY** determines the the order or rank in which it and its
+A column's **INDEX PRIORITY** determines the order or rank in which it and its
 values appear in the search dropdown.
 
 ![]({{ site.baseurl }}/images/priority-effect.png)
