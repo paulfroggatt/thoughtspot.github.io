@@ -18,7 +18,7 @@ If you need to move data between clusters or restore to a cluster that was updat
 
 ## Backups
 
-A backup is a procedure that stores a snapshot outside of a ThoughtSpot cluster. Backups are stored in a directory on a local or network file system. You can store all of the data associated with a snapshot or a portion of that data or only metadata. There is no default configuration enabled for backing up a cluster. You can configure on yourself or you can take backups manually. Backing up periodically protect your company from losing data and/or user work.
+A backup is a procedure that stores a snapshot outside of a ThoughtSpot cluster. Backups are stored in a directory on a local or network file system. You can store all of the data associated with a snapshot or a portion of that data or only metadata. There is no default configuration enabled for backing up a cluster. You can configure on yourself or you can take backups manually. Backing up periodically protects your company from losing data and/or user work.
 
 You can use a backup to restore a cluster to a prior state, a differently configured appliance, or move the backup from an appliance to a virtual cluster or vice versa.
 
@@ -45,7 +45,7 @@ Depending on your situation and your goals, you can choose to use a snapshot or 
                 </tr>
                 <tr>
                     <td><b>Used to</b></td>
-                    <td>To restore to a cluster to particular point in time.</td>
+                    <td>To restore a cluster to particular point in time.</td>
                     <td>
                         <ul id="ul_vbv_tlc_m1b">
                             <li>Restore a cluster to a prior state.</li>
