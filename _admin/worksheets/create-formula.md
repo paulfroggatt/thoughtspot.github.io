@@ -24,7 +24,7 @@ You can create a formula in a worksheet by using the Formula Builder. When you d
 
     **Note:** Formulas elements are color coded by type and can include the formula operators and functions (blue), the names of columns (purple), and/or constants (black).
 
-4. If you want to change what your formula returns, use the **Advanced settings**.Depending on your formula, you may be able to change:
+4. If you want to change what your formula returns, use the **Advanced settings**. Depending on your formula, you may be able to change:
 
     -   Data type
     -   ATTRIBUTE or MEASURE
