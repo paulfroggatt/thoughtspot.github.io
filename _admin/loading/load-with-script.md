@@ -57,7 +57,7 @@ If you have a very large data file that takes a long time to load, you can reduc
 
 * Create a script to load the files (see example below).
 
-* Run the script to load the files.You will make your script multi-threaded by invoking multiple loader threads (between 1 and 5 are recommended).
+* Run the script to load the files. You will make your script multi-threaded by invoking multiple loader threads (between 1 and 5 are recommended).
 
 To optimize the load time even further, determine what the bottleneck is and adjust your process accordingly.  If the disk I/O for reading the data files is the bottleneck, you can stage the data files on separate NAS mounted file systems and reference them accordingly in your script. If the CPU on the machine you're using to run the load script is the bottleneck, you can split the load script into the same number of parts as you have nodes in your ThoughtSpot instance, place one script on each node, and run them in parallel. Make sure the other nodes are able to access the data files where they are staged.  Running the load script on separate nodes will put the data on all the nodes, just as when you run the script on a single node. Running the script on all the nodes at the same time just lets you take advantage of CPU power of each node for hashing data files.
 
