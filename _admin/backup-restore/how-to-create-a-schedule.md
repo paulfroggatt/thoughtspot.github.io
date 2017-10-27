@@ -7,11 +7,11 @@ summary: "Explains how schedules and gives examples."
 sidebar: mydoc_sidebar
 permalink: /:collection/:path.html
 ---
-You can schedule periodic snapshots and backups. For snapshots, ThoughtSpot comes configured with a strongly recommended periodic backup policy. For backups, there is no such policy but you may want to create one or several of your own configurations. This section useful for understanding how to understand existing schedules and how to configure new schedules.
+You can schedule periodic snapshots and backups. For snapshots, ThoughtSpot comes configured with a strongly recommended periodic backup policy. For backups, there is no such policy but you may want to create one or several of your own configurations. This section is useful for understanding how to understand existing schedules and how to configure new schedules.
 
 ## Configuration format
 
-ThoughtSpot uses a [protcol buffer](https://developers.google.com/protocol-buffers/) configuration file to hold snapshot and backup policies. There are slight differences between the configuration of snapshots and backups. You'll read more about these later. However, the file format defines a `schedule` structure which is the same for both snapshots and backups. The following example shows the `schedule` format:
+ThoughtSpot uses a [protocol buffer](https://developers.google.com/protocol-buffers/) configuration file to hold snapshot and backup policies. There are slight differences between the configuration of snapshots and backups. You'll read more about these later. However, the file format defines a `schedule` structure which is the same for both snapshots and backups. The following example shows the `schedule` format:
 
 ```
 
@@ -36,7 +36,7 @@ schedule {
 
 The `schedule` has the following components:
 
-| `period` | Specifies the frequency in the choosen `unit`. You can specify the `unit` as `MINUTE`, `HOUR`, or `DAY`.|
+| `period` | Specifies the frequency in the chosen `unit`. You can specify the `unit` as `MINUTE`, `HOUR`, or `DAY`.|
 | `retention_policy` | Specifies retention intervals. Retention is on a first-in-first-out (FIFO) basis. So, the oldest result is always discarded. You can specify the `unit` as `MINUTE`, `HOUR`, or `DAY`. You can specify multiple retention buckets and they can have different retention policies.|
 | `offset_minutes_from_sunday_midnight` | Determines the minute within the hour you'd like execution to start. Setting this to zero is equivalent to midnight. |
 
@@ -165,7 +165,7 @@ At the end of the day, in the first bucket, you will have 22, 23, and 24th snaps
 
 |1|...|12|13|14|15|16|17|18|19|20R|21|22R|23R|24R|
 
-What if you changed the `period` frequncy to every 2 hours? What would you have retained in your buckets at hour 24?
+What if you changed the `period` frequency to every 2 hours? What would you have retained in your buckets at hour 24?
 
 |1|...|12| |14| |16| |18R| |20R| |22R| |24R|
 
