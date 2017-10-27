@@ -9,4 +9,4 @@ ThoughtSpot enables you to access and analyze your data through a search-based u
 
 ThoughtSpot gives administrators the ability to modify data properties to meet business needs, for example by providing search synonyms for common terms, boosting the importance of a column in search results, or formatting how the data appears. Collaboration and security features make it easy for you to protect sensitive data and for users to share information safely with others.
 
-To perform the actions in this guide, [you need to administrative access]({{ site.baseurl }}/admin/setup/logins.html).
+To perform the actions in this guide, [you need administrative access]({{ site.baseurl }}/admin/setup/logins.html).
