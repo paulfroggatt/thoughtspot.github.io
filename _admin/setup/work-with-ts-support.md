@@ -106,7 +106,7 @@ To set up the call home feature:
 
 ## Designate a support contact
 
-A support contact person can answer questions for about data and searching at your company. If the person can't answer a question that perscon should submit  system and software-related questions to ThoughtSpot Support. Your designated support contact should have an available email and phone number.
+A support contact person can answer questions for about data and searching at your company. If the person can't answer a question that person should submit  system and software-related questions to ThoughtSpot Support. Your designated support contact should have an available email and phone number.
 
 
 To designate the custom support contact:
