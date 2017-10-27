@@ -54,7 +54,7 @@ takes longer than a `DATALESS` backup. Consider the load on the system when
 configuring. Do not backup up when the system would experience a heavy load. For
 example, you may want to take `FULL` backups late in the evening or on weekends.
 
-The rentention system deletes the oldest stored backup and the corresponding
+The retention system deletes the oldest stored backup and the corresponding
 snapshot on a first-in first-out basis (FIFO). The deletion takes places
 *before* the backup that replaces it. This means that if you set a bucket
 retention of 1 the system stores a single backup at any one time. And, more
@@ -89,7 +89,7 @@ The following table lists some additional backup commands you can use.
 |Check the status of a policy.|`tscli backup-policy status <name>`|
 |Change an existing policy.|`tscli backup-policy update <name>`|
 |Disable or enable an existing policy.|`tscli backup-policy disable` or `enable`|
-|Delete a polucy|`tscli backup-policy delete <name>`|
+|Delete a policy|`tscli backup-policy delete <name>`|
 
 Finally, you can time a `crontab` job with your periodic backup configuration to
 move a backup to longer term storage. Simply create a `crontab` job that moves
