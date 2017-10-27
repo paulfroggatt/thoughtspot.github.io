@@ -26,6 +26,6 @@ There are several reasons you might want to use row level security:
 
 ## RLS and administrators
 
-If your installation has enabled the **Can Adminsiter RLS** privilege, users groups with this privilege (directly or indirectly) can bypass row-level security (RLS) rules. This privilege can only be assigned by a user who already **Has administration privilege**.
+If your installation has enabled the **Can Administer RLS** privilege, users groups with this privilege (directly or indirectly) can bypass row-level security (RLS) rules. This privilege can only be assigned by a user who already **Has administration privilege**.
 
 Users with **Has administration privilege** are administrators and can see can see all data sources, and no type of row level security applies to them.
